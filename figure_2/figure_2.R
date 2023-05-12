@@ -14,7 +14,7 @@ setwd("/Users/gavin/genome/fig_worm_papers_meta_2022/publication_preparation/fig
 # https://academic.oup.com/aob/article/123/1/191/5092035
 ficus_tree <- read.nexus("Zhang_et_al_2019.txt")
 
-#nematode association data constructed from literature search, see "how_to_be_a_fig_nematode_supplemental_tables.xlsx" & "worm_association_data_ii.csv"
+#nematode association data constructed from literature search, see "how_to_be_a_fig_nematode_supplemental_tables.xlsx" & "worm_association_data_iii.csv"
 
 newnema3 <- read.table("worm_association_data_iii.csv", header=TRUE,sep="\t",stringsAsFactors=TRUE)
 
